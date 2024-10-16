@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8ACE00;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #8ACE00;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8ACE00;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+    color: #8ACE00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #8ACE00;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #8ACE00;
+}
+
+.btn-danger {
+    background-color: black;
+    color: #8ACE00;
+}
+
+.btn-danger:hover {
+    background-color: #8ACE00;
+    color: black
+}
+
+.error {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.required {
+    color: red;
+}
+
+.container h1 {
+    text-align: center;
+    color: #8ACE00
+}
+
+.dashboard-container {
+    color: #8ACE00;
+}
+
+footer {
+    color: #8ACE00;
+}
